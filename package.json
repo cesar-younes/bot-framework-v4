@@ -1,0 +1,20 @@
+{
+  "name": "techsupportbot",
+  "version": "1.0.0",
+  "description": "Tech Support Bot that opens tickets and hands over to an agent",
+  "main": "./lib/app.js",
+  "scripts": {
+    "start": "tsc && node ./lib/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^8.0.28",
+    "@types/restify": "^5.0.3",
+    "botbuilder-core": "^4.0.0-h2.0",
+    "botbuilder-prompts": "^4.0.0-h2.0",
+    "botbuilder-router": "^4.0.0-h2.0",
+    "botbuilder-services": "^4.0.0-h2.0",
+    "restify": "^6.0.0"
+  }
+}
